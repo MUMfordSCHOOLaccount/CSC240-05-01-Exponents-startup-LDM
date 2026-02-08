@@ -28,68 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.xInputTextBox = new System.Windows.Forms.TextBox();
-            this.xInputLabel = new System.Windows.Forms.Label();
-            this.xOutputLabel = new System.Windows.Forms.Label();
-            this.xGoButton = new System.Windows.Forms.Button();
-            this.xResetButton = new System.Windows.Forms.Button();
+            this.txtInput = new System.Windows.Forms.TextBox();
+            this.lblInput = new System.Windows.Forms.Label();
+            this.lblOutput = new System.Windows.Forms.Label();
+            this.btnGo = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // xInputTextBox
+            // txtInput
             // 
-            this.xInputTextBox.Location = new System.Drawing.Point(92, 45);
-            this.xInputTextBox.Name = "xInputTextBox";
-            this.xInputTextBox.Size = new System.Drawing.Size(100, 20);
-            this.xInputTextBox.TabIndex = 0;
+            this.txtInput.Location = new System.Drawing.Point(92, 45);
+            this.txtInput.Name = "txtInput";
+            this.txtInput.Size = new System.Drawing.Size(100, 20);
+            this.txtInput.TabIndex = 0;
             // 
-            // xInputLabel
+            // lblInput
             // 
-            this.xInputLabel.AutoSize = true;
-            this.xInputLabel.Location = new System.Drawing.Point(92, 27);
-            this.xInputLabel.Name = "xInputLabel";
-            this.xInputLabel.Size = new System.Drawing.Size(85, 13);
-            this.xInputLabel.TabIndex = 3;
-            this.xInputLabel.Text = "Enter an integer:";
+            this.lblInput.AutoSize = true;
+            this.lblInput.Location = new System.Drawing.Point(92, 27);
+            this.lblInput.Name = "lblInput";
+            this.lblInput.Size = new System.Drawing.Size(85, 13);
+            this.lblInput.TabIndex = 3;
+            this.lblInput.Text = "Enter an integer:";
             // 
-            // xOutputLabel
+            // lblOutput
             // 
-            this.xOutputLabel.AutoSize = true;
-            this.xOutputLabel.Location = new System.Drawing.Point(102, 181);
-            this.xOutputLabel.Name = "xOutputLabel";
-            this.xOutputLabel.Size = new System.Drawing.Size(0, 13);
-            this.xOutputLabel.TabIndex = 4;
-            this.xOutputLabel.Visible = false;
+            this.lblOutput.AutoSize = true;
+            this.lblOutput.Location = new System.Drawing.Point(60, 140);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(0, 13);
+            this.lblOutput.TabIndex = 4;
+            this.lblOutput.Visible = false;
             // 
-            // xGoButton
+            // btnGo
             // 
-            this.xGoButton.Location = new System.Drawing.Point(105, 96);
-            this.xGoButton.Name = "xGoButton";
-            this.xGoButton.Size = new System.Drawing.Size(75, 67);
-            this.xGoButton.TabIndex = 6;
-            this.xGoButton.Text = "Go!";
-            this.xGoButton.UseVisualStyleBackColor = true;
-            this.xGoButton.Click += new System.EventHandler(this.xGoButton_Click);
+            this.btnGo.Location = new System.Drawing.Point(105, 96);
+            this.btnGo.Name = "btnGo";
+            this.btnGo.Size = new System.Drawing.Size(75, 23);
+            this.btnGo.TabIndex = 6;
+            this.btnGo.Text = "Go";
+            this.btnGo.UseVisualStyleBackColor = true;
+            this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
             // 
-            // xResetButton
+            // btnReset
             // 
-            this.xResetButton.Location = new System.Drawing.Point(105, 212);
-            this.xResetButton.Name = "xResetButton";
-            this.xResetButton.Size = new System.Drawing.Size(75, 23);
-            this.xResetButton.TabIndex = 7;
-            this.xResetButton.Text = "Reset";
-            this.xResetButton.UseVisualStyleBackColor = true;
-            this.xResetButton.Click += new System.EventHandler(this.xResetButton_Click);
+            this.btnReset.Location = new System.Drawing.Point(105, 180);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 7;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.xResetButton);
-            this.Controls.Add(this.xGoButton);
-            this.Controls.Add(this.xOutputLabel);
-            this.Controls.Add(this.xInputLabel);
-            this.Controls.Add(this.xInputTextBox);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.btnGo);
+            this.Controls.Add(this.lblOutput);
+            this.Controls.Add(this.lblInput);
+            this.Controls.Add(this.txtInput);
             this.Name = "Form1";
             this.Text = "Exponents Demo";
             this.ResumeLayout(false);
@@ -99,11 +99,11 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox xInputTextBox;
-        private System.Windows.Forms.Label xInputLabel;
-        private System.Windows.Forms.Label xOutputLabel;
-        private System.Windows.Forms.Button xGoButton;
-        private System.Windows.Forms.Button xResetButton;
+        private System.Windows.Forms.TextBox txtInput;
+        private System.Windows.Forms.Label lblInput;
+        private System.Windows.Forms.Label lblOutput;
+        private System.Windows.Forms.Button btnGo;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 

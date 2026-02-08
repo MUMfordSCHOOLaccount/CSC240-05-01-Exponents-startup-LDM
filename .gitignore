@@ -338,3 +338,14 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+.vs/
+/.vs/
+**/bin/
+**/obj/
+bin/
+obj/
+bin/
+obj/
+bin/
+obj/
